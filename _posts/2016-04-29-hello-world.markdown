@@ -1,0 +1,36 @@
+---
+layout: default
+title: 我的第一篇文章
+---
+
+# {{ page.title }}
+
+## 目录
++ [第一部分](#partI)
++ [第二部分](#partII)
++ [第三部分](#partIII)
+
+
+> 例如这样
+
+# 一级标题
+
+## 二级标题
+
+### 三级标题
+
+
+`function func () {
+	var a = 1
+}`
+
+***
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+{{ page.date|date_to_string }}
